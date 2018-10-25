@@ -80,6 +80,7 @@ $(document).ready(() => {
         .get(STORE.GHEURLS)
         .split(/\n/)
         .map(normalizeUrl)
+        .concat('https://github.disney.com')
         .concat('https://github.com');
 
       if (~githubUrls.indexOf(currentUrl)) {
