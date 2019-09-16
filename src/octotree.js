@@ -103,6 +103,7 @@ $(document).ready(() => {
           case STORE.TOKEN:
           case STORE.LOADALL:
           case STORE.ICONS:
+          case STORE.PR:
             reload = true;
             break;
           case STORE.HOTKEYS:
@@ -145,7 +146,7 @@ $(document).ready(() => {
               currRepo = repo;
               treeView.show(repo, token);
             } else {
-              treeView.syncSelection();
+              treeView.syncSelection(repo);
             }
           }
         } else {

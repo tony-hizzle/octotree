@@ -1,3 +1,20 @@
+### v2.5.6
+
+- Fix issue branch with slashes
+
+### v2.5.5
+
+- Update jstree to get rid of Chrome warning
+
+### v2.5.4
+
+- Fix branch retrieval due to GitHub DOM changes
+- Fix bug folder closing/opening repeat
+
+### v2.5.1
+
+- Fix bug not working when branch names contain slashes
+
 ### v2.5.0
 
 - Remove BitBucket experiment feature
